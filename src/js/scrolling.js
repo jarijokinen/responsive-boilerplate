@@ -2,10 +2,7 @@
 
 (function () {
   document.addEventListener('DOMContentLoaded', function () {
-    const scrollable = document.querySelector('.scrollable');
-    if (scrollable == null) {
-      return false;
-    }
+    const scrollable = document.querySelector('body');
     window.onscroll = function () {
       const scroll = (window.pageYOffset !== undefined) ? window.pageYOffset : (
         document.documentElement || document.body.parentNode || document.body
