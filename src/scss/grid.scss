@@ -1,0 +1,25 @@
+$grid-mobile-breakpoint: 768px !default;
+$grid-col-margin-y: 30px !default;
+$grid-col-gutter: 3.33% !default;
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  @media(max-width: ($grid-mobile-breakpoint - 1)) {
+    display: block;
+  }
+}
+.row > div {
+  flex: 0 1 auto;
+  margin: $grid-col-margin-y 0;
+  width: ((100% - (2 * $grid-col-gutter)) / 3);
+  @media(max-width: ($grid-mobile-breakpoint - 1)) {
+    width: 100%;
+  }
+}
+.seconds > div {
+  width: ((100% - ($grid-col-gutter)) / 2);
+}
+.fourths > div {
+  width: ((100% - (3 * $grid-col-gutter)) / 4);
+}

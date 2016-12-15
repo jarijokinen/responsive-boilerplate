@@ -1,0 +1,91 @@
+$base-background: #fff !default;
+$base-text-color: #282828 !default;
+$base-link-color: #282838 !default;
+
+$base-font-family: 'Helvetica Neue', Arial, sans-serif !default;
+$base-font-size: 16px !default;
+$base-font-weight: 400 !default;
+
+$base-heading-font-family: $base-font-family !default;
+$base-heading-font-size: 22px !default;
+$base-heading-font-weight: 600 !default;
+$base-heading-line-height: 1.2 !default;
+
+$base-h1-font-family: $base-heading-font-family !default;
+$base-h2-font-family: $base-heading-font-family !default;
+$base-h3-font-family: $base-heading-font-family !default;
+
+$base-h1-font-size: 42px !default;
+$base-h2-font-size: 22px !default;
+$base-h3-font-size: 18px !default;
+
+$base-h1-font-weight: $base-heading-font-weight !default;
+$base-h2-font-weight: $base-heading-font-weight !default;
+$base-h3-font-weight: $base-heading-font-weight !default;
+
+$base-h1-line-height: $base-heading-line-height !default;
+$base-h2-line-height: $base-heading-line-height !default;
+$base-h3-line-height: $base-heading-line-height !default;
+
+$base-p-font-family: $base-font-family !default;
+$base-p-font-size: $base-font-size !default;
+$base-p-font-weight: $base-font-weight !default;
+$base-p-line-height: 1.45 !default;
+$base-p-margin: 15px 0 !default;
+
+a, body, div, footer, h1, h2, h3, header, html, li, main, nav, p, section, 
+span, ul {
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+main {
+  display: block;
+}
+body, html {
+  height: 100%;
+  position: relative;
+}
+body {
+  background: $base-background;
+  color: $base-text-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  font-weight: $base-font-weight;
+}
+h1 {
+  font-family: $base-h1-font-family;
+  font-size: $base-h1-font-size;
+  font-weight: $base-h1-font-weight;
+  line-height: $base-h1-line-height;
+}
+h2 {
+  font-family: $base-h2-font-family;
+  font-size: $base-h2-font-size;
+  font-weight: $base-h2-font-weight;
+  line-height: $base-h2-line-height;
+}
+h3 {
+  font-family: $base-h3-font-family;
+  font-size: $base-h3-font-size;
+  font-weight: $base-h3-font-weight;
+  line-height: $base-h3-line-height;
+}
+p {
+  font-family: $base-p-font-family;
+  font-size: $base-p-font-size;
+  font-weight: $base-p-font-weight;
+  line-height: $base-p-line-height;
+  margin: $base-p-margin;
+}
+a {
+  color: $base-link-color;
+  text-decoration: none;
+}
+nav ul, nav li {
+  display: block;
+  list-style-type: none;
+}
+nav li {
+  display: inline;
+}

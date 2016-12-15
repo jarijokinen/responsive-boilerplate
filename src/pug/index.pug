@@ -1,0 +1,32 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    title Responsive Boilerplate
+    link(rel='stylesheet', href='/css/base.css')
+    link(rel='stylesheet', href='/css/container.css')
+    link(rel='stylesheet', href='/css/header.css')
+    link(rel='stylesheet', href='/css/sections.css')
+    link(rel='stylesheet', href='/css/grid.css')
+  body.scrollable
+    header: div
+      h1 Responsive Boilerplate
+      nav
+        ul
+          li: a(href="/") Home
+    main
+      section: div
+        Lorem ipsum dolor
+      section: div
+        h2 Lorem ipsum dolor
+        div.row
+          div
+            h3 Column 1
+          div
+            h3 Column 2
+          div
+            h3 Column 3
+    script(src="/js/toggle.js")
+    script(src="/js/scrolling.js")

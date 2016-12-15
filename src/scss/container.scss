@@ -1,0 +1,11 @@
+$container-margin-y: 25px !default;
+$container-width: 1200px !default;
+
+footer > div, header > div, main > section > div {
+  margin: 0 auto;
+  max-width: ($container-width - ($container-margin-y * 2));
+  @media(max-width: ($container-width - 1)) {
+    margin: 0 $container-margin-y;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,1 @@
+.row{display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between}@media (max-width:767px){.row{display:block}}.row>div{-ms-flex:0 1 auto;flex:0 1 auto;margin:30px 0;width:31.11333%}@media (max-width:767px){.row>div{width:100%}}.seconds>div{width:48.335%}.fourths>div{width:22.5025%}
