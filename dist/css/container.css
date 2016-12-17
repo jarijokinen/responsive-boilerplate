@@ -1,1 +1,1 @@
-footer>div,header>div,main>section>div{margin:0 auto;max-width:1150px}@media (max-width:1199px){footer>div,header>div,main>section>div{margin:0 25px;max-width:100%}}
+footer>div,header>div,main>article>div,main>section>div{margin:0 auto;max-width:1150px}@media (max-width:1199px){footer>div,header>div,main>article>div,main>section>div{margin:0 25px;max-width:100%}}
